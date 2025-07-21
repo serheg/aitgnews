@@ -61,7 +61,7 @@ def get_post_id(entry):
 # --- Основная логика скрипта ---
 if not GEMINI_API_KEY: raise ValueError("Ошибка: API-ключ GEMINI_API_KEY не найден!")
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 print("Запуск RSS-бота с отправкой в Telegram...")
 processed_ids = load_processed_posts()
