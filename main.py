@@ -165,7 +165,7 @@ current_date = datetime.utcnow().strftime('%d.%m.%Y')
 final_summary_text = "\n".join(summaries_list)
 
 # Формируем финальное сообщение
-final_telegram_post = f"<b>Сводка новостей за {current_date}</b>\n\n{final_summary_text}"
+final_telegram_post = f"Дайджест постов {current_date}\n\n{final_summary_text}"
 
 print("\n--- Итоговый пост для Telegram ---")
 print(final_telegram_post)
