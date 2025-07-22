@@ -2,7 +2,7 @@ name: RSS to Telegram Bot
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # Запускать каждые 2 часа
+    - cron: '0 */1 * * *' # Запускать каждые 1 час
   workflow_dispatch: # Позволяет запускать вручную
 
 jobs:
