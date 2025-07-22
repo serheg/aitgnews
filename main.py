@@ -157,7 +157,7 @@ for i, entry in enumerate(all_new_posts):
         
         # Формируем строку для итогового сообщения
         # Используем тире (•) для красивого списка
-        summary_line = f"• {summary_sentence} <a href='{link}'>»</a>\n\n"
+        summary_line = f"• {summary_sentence} <a href='{link}'>»</a>\n"
         summaries_list.append(summary_line)
         
         # Добавляем ID в набор для последующего сохранения
