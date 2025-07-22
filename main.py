@@ -143,7 +143,7 @@ for i, entry in enumerate(all_new_posts):
         
         # Формируем строку для итогового сообщения
         # Используем тире (•) для красивого списка
-        summary_line = f"• {summary_sentence} <a href='{link}'>источник</a>"
+        summary_line = f"• {summary_sentence} <a href='{link}'>»</a>\n\n"
         summaries_list.append(summary_line)
         
         # Добавляем ID в набор для последующего сохранения
@@ -165,7 +165,7 @@ current_date = datetime.utcnow().strftime('%d.%m.%Y')
 final_summary_text = "\n".join(summaries_list)
 
 # Формируем финальное сообщение
-final_telegram_post = f"Дайджест постов {current_date}\n\n{final_summary_text}"
+final_telegram_post = f"{final_summary_text}"
 
 print("\n--- Итоговый пост для Telegram ---")
 print(final_telegram_post)
