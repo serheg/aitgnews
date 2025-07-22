@@ -32,6 +32,20 @@ RSS_URLS = [
    "https://rss.datuan.dev/telegram/channel/denissexy",
    "https://rss.datuan.dev/telegram/channel/neiroit_world",
    "https://rss.datuan.dev/telegram/channel/v_neuro",
+   "https://rss.datuan.dev/telegram/channel/sburyi",
+   "https://rss.datuan.dev/telegram/channel/tips_ai",
+   "https://rss.datuan.dev/telegram/channel/myspacet_ai",
+   "https://rss.datuan.dev/telegram/channel/sergiobulaev",
+   "https://rss.datuan.dev/telegram/channel/notboring_tech",
+   "https://rss.datuan.dev/telegram/channel/nobilix",
+  "https://rss.datuan.dev/telegram/channel/aiforproduct",
+    "https://rss.datuan.dev/telegram/channel/apimonster_ai",
+       "https://rss.datuan.dev/telegram/channel/n8n_farm",
+   "https://rss.datuan.dev/telegram/channel/traficwebsansay",
+      "https://rss.datuan.dev/telegram/channel/iisy_business",
+         "https://rss.datuan.dev/telegram/channel/makeeai",
+         "https://rss.datuan.dev/telegram/channel/Neuro_Modd",
+            "https://rss.datuan.dev/telegram/channel/casetapai",
    "https://rss.datuan.dev/telegram/channel/neurocry"
 ]
 PROCESSED_POSTS_FILE = "processed_posts.txt"
